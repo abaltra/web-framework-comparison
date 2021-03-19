@@ -1,5 +1,6 @@
 certs
 obj
 bin
-targer
+target
 dist
+node_modules
