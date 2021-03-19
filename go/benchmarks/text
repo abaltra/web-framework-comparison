@@ -1,0 +1,35 @@
+Server Software:        Atreugo
+Server Hostname:        127.0.0.1
+Server Port:            3001
+
+Document Path:          /text
+Document Length:        5 bytes
+
+Concurrency Level:      100
+Time taken for tests:   1.144 seconds
+Complete requests:      10000
+Failed requests:        0
+Total transferred:      1570000 bytes
+HTML transferred:       50000 bytes
+Requests per second:    8741.78 [#/sec] (mean)
+Time per request:       11.439 [ms] (mean)
+Time per request:       0.114 [ms] (mean, across all concurrent requests)
+Transfer rate:          1340.29 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    5  14.4      4     266
+Processing:     1    7  23.0      4     266
+Waiting:        1    5  19.1      3     266
+Total:          3   11  26.9      7     270
+
+Percentage of the requests served within a certain time (ms)
+  50%      7
+  66%      8
+  75%      9
+  80%     10
+  90%     11
+  95%     12
+  98%     81
+  99%    267
+ 100%    270 (longest request)

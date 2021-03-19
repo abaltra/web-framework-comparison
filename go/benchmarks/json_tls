@@ -1,0 +1,37 @@
+Server Software:        Atreugo
+Server Hostname:        127.0.0.1
+Server Port:            3001
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,4096,128
+Server Temp Key:        ECDH X25519 253 bits
+
+Document Path:          /json
+Document Length:        17 bytes
+
+Concurrency Level:      100
+Time taken for tests:   115.366 seconds
+Complete requests:      10000
+Failed requests:        0
+Total transferred:      1610000 bytes
+HTML transferred:       170000 bytes
+Requests per second:    86.68 [#/sec] (mean)
+Time per request:       1153.655 [ms] (mean)
+Time per request:       11.537 [ms] (mean, across all concurrent requests)
+Transfer rate:          13.63 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       31  774 351.4    722    2420
+Processing:     0  372 273.3    321    1764
+Waiting:        0  221 198.7    161    1528
+Total:         42 1146 414.2   1179    2867
+
+Percentage of the requests served within a certain time (ms)
+  50%   1179
+  66%   1325
+  75%   1466
+  80%   1513
+  90%   1644
+  95%   1694
+  98%   1759
+  99%   2334
+ 100%   2867 (longest request)

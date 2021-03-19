@@ -1,0 +1,35 @@
+Server Software:        actix
+Server Hostname:        127.0.0.1
+Server Port:            3002
+
+Document Path:          /json
+Document Length:        17 bytes
+
+Concurrency Level:      100
+Time taken for tests:   0.782 seconds
+Complete requests:      10000
+Failed requests:        0
+Total transferred:      1250000 bytes
+HTML transferred:       170000 bytes
+Requests per second:    12782.18 [#/sec] (mean)
+Time per request:       7.823 [ms] (mean)
+Time per request:       0.078 [ms] (mean, across all concurrent requests)
+Transfer rate:          1560.33 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    3   1.0      3      11
+Processing:     1    4   1.8      4      20
+Waiting:        0    4   1.4      4      15
+Total:          4    8   2.3      7      25
+
+Percentage of the requests served within a certain time (ms)
+  50%      7
+  66%      8
+  75%      8
+  80%      9
+  90%     10
+  95%     12
+  98%     14
+  99%     17
+ 100%     25 (longest request)

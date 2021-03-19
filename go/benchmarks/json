@@ -1,0 +1,35 @@
+Server Software:        Atreugo
+Server Hostname:        127.0.0.1
+Server Port:            3001
+
+Document Path:          /json
+Document Length:        17 bytes
+
+Concurrency Level:      100
+Time taken for tests:   0.795 seconds
+Complete requests:      10000
+Failed requests:        0
+Total transferred:      1610000 bytes
+HTML transferred:       170000 bytes
+Requests per second:    12584.77 [#/sec] (mean)
+Time per request:       7.946 [ms] (mean)
+Time per request:       0.079 [ms] (mean, across all concurrent requests)
+Transfer rate:          1978.66 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    4   0.9      4      11
+Processing:     1    4   1.2      4      13
+Waiting:        1    4   1.1      4      11
+Total:          4    8   1.7      8      19
+
+Percentage of the requests served within a certain time (ms)
+  50%      8
+  66%      8
+  75%      8
+  80%      9
+  90%      9
+  95%     10
+  98%     13
+  99%     16
+ 100%     19 (longest request)

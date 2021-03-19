@@ -1,0 +1,37 @@
+Server Software:        express
+Server Hostname:        127.0.0.1
+Server Port:            3003
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,4096,128
+Server Temp Key:        ECDH X25519 253 bits
+
+Document Path:          /text
+Document Length:        5 bytes
+
+Concurrency Level:      100
+Time taken for tests:   72.910 seconds
+Complete requests:      10000
+Failed requests:        0
+Total transferred:      2030000 bytes
+HTML transferred:       50000 bytes
+Requests per second:    137.16 [#/sec] (mean)
+Time per request:       729.100 [ms] (mean)
+Time per request:       7.291 [ms] (mean, across all concurrent requests)
+Transfer rate:          27.19 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       52  528 147.8    539     877
+Processing:     4  197 139.4    156     698
+Waiting:        2  134 117.2    103     658
+Total:         90  725 105.8    746    1321
+
+Percentage of the requests served within a certain time (ms)
+  50%    746
+  66%    778
+  75%    801
+  80%    806
+  90%    845
+  95%    865
+  98%    942
+  99%    988
+ 100%   1321 (longest request)

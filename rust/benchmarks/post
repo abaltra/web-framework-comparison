@@ -1,0 +1,38 @@
+Server Software:        actix
+Server Hostname:        127.0.0.1
+Server Port:            3002
+
+Document Path:          /body
+Document Length:        21 bytes
+
+Concurrency Level:      100
+Time taken for tests:   1.558 seconds
+Complete requests:      10000
+Failed requests:        0
+Total transferred:      1290000 bytes
+Total body sent:        1620000
+HTML transferred:       210000 bytes
+Requests per second:    6418.32 [#/sec] (mean)
+Time per request:       15.580 [ms] (mean)
+Time per request:       0.156 [ms] (mean, across all concurrent requests)
+Transfer rate:          808.56 [Kbytes/sec] received
+                        1015.40 kb/s sent
+                        1823.96 kb/s total
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    6  48.0      3     805
+Processing:     2    9  63.8      4     805
+Waiting:        0    9  63.8      4     805
+Total:          4   15  79.7      7     809
+
+Percentage of the requests served within a certain time (ms)
+  50%      7
+  66%      8
+  75%      8
+  80%      8
+  90%      9
+  95%     10
+  98%     14
+  99%    808
+ 100%    809 (longest request)

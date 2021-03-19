@@ -1,0 +1,37 @@
+Server Software:        Kestrel
+Server Hostname:        127.0.0.1
+Server Port:            5001
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+Server Temp Key:        ECDH P-256 256 bits
+
+Document Path:          /json
+Document Length:        17 bytes
+
+Concurrency Level:      100
+Time taken for tests:   159.996 seconds
+Complete requests:      10000
+Failed requests:        0
+Total transferred:      1560000 bytes
+HTML transferred:       170000 bytes
+Requests per second:    62.50 [#/sec] (mean)
+Time per request:       1599.961 [ms] (mean)
+Time per request:       16.000 [ms] (mean, across all concurrent requests)
+Transfer rate:          9.52 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      100 1403 324.9   1347    2487
+Processing:     3  188 176.1    120    1795
+Waiting:        1  167 165.6    101    1459
+Total:        118 1591 351.5   1646    3544
+
+Percentage of the requests served within a certain time (ms)
+  50%   1646
+  66%   1763
+  75%   1812
+  80%   1851
+  90%   2045
+  95%   2140
+  98%   2351
+  99%   2482
+ 100%   3544 (longest request)

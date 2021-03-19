@@ -1,0 +1,35 @@
+Server Software:        express
+Server Hostname:        127.0.0.1
+Server Port:            3003
+
+Document Path:          /text
+Document Length:        5 bytes
+
+Concurrency Level:      100
+Time taken for tests:   2.820 seconds
+Complete requests:      10000
+Failed requests:        0
+Total transferred:      2030000 bytes
+HTML transferred:       50000 bytes
+Requests per second:    3545.87 [#/sec] (mean)
+Time per request:       28.202 [ms] (mean)
+Time per request:       0.282 [ms] (mean, across all concurrent requests)
+Transfer rate:          702.94 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    1   1.8      1      60
+Processing:     4   27  23.1     23     245
+Waiting:        2   16  19.8     13     239
+Total:          6   28  23.2     23     245
+
+Percentage of the requests served within a certain time (ms)
+  50%     23
+  66%     26
+  75%     29
+  80%     31
+  90%     36
+  95%     43
+  98%     72
+  99%    233
+ 100%    245 (longest request)
