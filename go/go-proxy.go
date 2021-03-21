@@ -4,6 +4,7 @@ import (
 	"encoding/json"
 	"net/http"
 	"os"
+	"time"
 
 	"github.com/savsgio/atreugo/v11"
 )
@@ -11,7 +12,11 @@ import (
 func main() {
 
 	config := atreugo.Config{
-		Addr: "0.0.0.0:3001",
+		Addr:               "0.0.0.0:3001",
+		TCPKeepalive:       true,
+		TCPKeepalivePeriod: 30 * time.Second,
+		MaxConnsPerIP:      200,
+		IdleTimeout:        30 * time.Second,
 	}
 
 	if os.Getenv("USE_TLS") != "" {

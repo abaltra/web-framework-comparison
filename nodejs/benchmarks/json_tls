@@ -1,37 +1,17 @@
-Server Software:        express
-Server Hostname:        127.0.0.1
-Server Port:            3003
-SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,4096,128
-Server Temp Key:        ECDH X25519 253 bits
-
-Document Path:          /json
-Document Length:        17 bytes
-
-Concurrency Level:      100
-Time taken for tests:   72.412 seconds
-Complete requests:      10000
-Failed requests:        0
-Total transferred:      2240000 bytes
-HTML transferred:       170000 bytes
-Requests per second:    138.10 [#/sec] (mean)
-Time per request:       724.122 [ms] (mean)
-Time per request:       7.241 [ms] (mean, across all concurrent requests)
-Transfer rate:          30.21 [Kbytes/sec] received
-
-Connection Times (ms)
-              min  mean[+/-sd] median   max
-Connect:       45  516 151.8    532     856
-Processing:     5  203 138.5    164     695
-Waiting:        2  145 117.4    127     618
-Total:         56  719 103.8    746    1218
-
-Percentage of the requests served within a certain time (ms)
-  50%    746
-  66%    761
-  75%    791
-  80%    796
-  90%    815
-  95%    859
-  98%    923
-  99%   1001
- 100%   1218 (longest request)
+INFO Target URL:          https://localhost:3003/json
+INFO Max requests:        10000
+INFO Concurrency level:   100
+INFO Agent:               keepalive
+INFO
+INFO Completed requests:  10000
+INFO Total errors:        0
+INFO Total time:          3.463183599 s
+INFO Requests per second: 2888
+INFO Mean latency:        33.9 ms
+INFO
+INFO Percentage of the requests served within a certain time
+INFO   50%      20 ms
+INFO   90%      33 ms
+INFO   95%      36 ms
+INFO   99%      587 ms
+INFO  100%      792 ms (longest request)

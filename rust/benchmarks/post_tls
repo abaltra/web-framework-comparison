@@ -1,40 +1,17 @@
-Server Software:        actix
-Server Hostname:        127.0.0.1
-Server Port:            3002
-SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,4096,256
-Server Temp Key:        ECDH X25519 253 bits
-
-Document Path:          /body
-Document Length:        21 bytes
-
-Concurrency Level:      100
-Time taken for tests:   50.249 seconds
-Complete requests:      10000
-Failed requests:        0
-Total transferred:      1290000 bytes
-Total body sent:        1620000
-HTML transferred:       210000 bytes
-Requests per second:    199.01 [#/sec] (mean)
-Time per request:       502.485 [ms] (mean)
-Time per request:       5.025 [ms] (mean, across all concurrent requests)
-Transfer rate:          25.07 [Kbytes/sec] received
-                        31.48 kb/s sent
-                        56.55 kb/s total
-
-Connection Times (ms)
-              min  mean[+/-sd] median   max
-Connect:       42  426  56.0    412     638
-Processing:     2   76  54.6     95     266
-Waiting:        0   72  53.2     89     258
-Total:         53  502  20.8    501     674
-
-Percentage of the requests served within a certain time (ms)
-  50%    501
-  66%    505
-  75%    507
-  80%    508
-  90%    514
-  95%    520
-  98%    535
-  99%    642
- 100%    674 (longest request)
+INFO Target URL:          https://localhost:3002/body
+INFO Max requests:        10000
+INFO Concurrency level:   100
+INFO Agent:               keepalive
+INFO
+INFO Completed requests:  10000
+INFO Total errors:        0
+INFO Total time:          2.368892613 s
+INFO Requests per second: 4221
+INFO Mean latency:        23.2 ms
+INFO
+INFO Percentage of the requests served within a certain time
+INFO   50%      15 ms
+INFO   90%      28 ms
+INFO   95%      32 ms
+INFO   99%      293 ms
+INFO  100%      385 ms (longest request)

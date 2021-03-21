@@ -1,37 +1,17 @@
-Server Software:        actix
-Server Hostname:        127.0.0.1
-Server Port:            3002
-SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,4096,256
-Server Temp Key:        ECDH X25519 253 bits
-
-Document Path:          /json
-Document Length:        17 bytes
-
-Concurrency Level:      100
-Time taken for tests:   55.968 seconds
-Complete requests:      10000
-Failed requests:        0
-Total transferred:      1250000 bytes
-HTML transferred:       170000 bytes
-Requests per second:    178.67 [#/sec] (mean)
-Time per request:       559.681 [ms] (mean)
-Time per request:       5.597 [ms] (mean, across all concurrent requests)
-Transfer rate:          21.81 [Kbytes/sec] received
-
-Connection Times (ms)
-              min  mean[+/-sd] median   max
-Connect:       37  462 146.1    425    1196
-Processing:     2   98 101.7    105     646
-Waiting:        0   92  99.8     99     638
-Total:         45  559 148.7    504    1215
-
-Percentage of the requests served within a certain time (ms)
-  50%    504
-  66%    509
-  75%    515
-  80%    520
-  90%    786
-  95%    950
-  98%   1049
-  99%   1196
- 100%   1215 (longest request)
+INFO Target URL:          https://localhost:3002/json
+INFO Max requests:        10000
+INFO Concurrency level:   100
+INFO Agent:               keepalive
+INFO
+INFO Completed requests:  10000
+INFO Total errors:        0
+INFO Total time:          2.259353049 s
+INFO Requests per second: 4426
+INFO Mean latency:        22.1 ms
+INFO
+INFO Percentage of the requests served within a certain time
+INFO   50%      14 ms
+INFO   90%      24 ms
+INFO   95%      28 ms
+INFO   99%      303 ms
+INFO  100%      347 ms (longest request)
